@@ -24,7 +24,7 @@ int main(int argc, char** argv) {
      
     init_array_pos = 0;
      
-    gets(input_string);
+    fgets(input_string, IN_STR_MAX_SIZE, stdin);
      
     input_string[(strlen(input_string) + 1)] = '\0';
      
